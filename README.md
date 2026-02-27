@@ -15,6 +15,13 @@
 - `models/xlm_roberta_fear/` – папка з навченою моделлю  
 - `requirements.txt` – список залежностей  
 
+## Датасет
+Датасет збережено окремо (Google Drive): https://drive.google.com/drive/folders/1bALlj75dROiniMTVY-nzO3JMd5p9VwiC?usp=sharing
+Структура папок у датасеті:
+- `1/` – тексти з апеляцією до страху
+- `0_clean/` – нейтральні тексти
+- `0_other/` – інші негативні приклади
+
 ## Навчання моделі
 
 Навчання виконувалося у Google Colab:  
